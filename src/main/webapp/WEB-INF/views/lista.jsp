@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Inventario de Productos</title>
-    <link rel="stylesheet" href="<c:url value='/css/estilos.css'/>">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
 <h1>Inventario de Productos</h1>

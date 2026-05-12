@@ -1,11 +1,11 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>${empty producto ? 'Nuevo Producto' : 'Editar Producto'}</title>
-    <link rel="stylesheet" href="<c:url value='/css/estilos.css'/>">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
 <h1>${empty producto ? 'Registrar Producto' : 'Editar Producto'}</h1>

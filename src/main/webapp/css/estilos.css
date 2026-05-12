@@ -1,0 +1,138 @@
+/* --- ESTILOS GENERALES --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* --- ESTILOS PARA LA TABLA (lista.jsp) --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden; /* Para que los bordes redondeados se vean */
+    margin-top: 20px;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Filas cebra para leer mejor */
+tr.par { background-color: #f9f9f9; }
+tr.impar { background-color: #ffffff; }
+
+tr:hover { background-color: #f1f1f1; }
+
+/* --- BOTONES Y ENLACES --- */
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover { color: #2980b9; }
+
+/* Botón de Nuevo Producto */
+a[href*="accion=formulario"] {
+    display: inline-block;
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+a[href*="accion=formulario"]:hover {
+    background-color: #219150;
+}
+
+/* Enlace Eliminar */
+a[href*="accion=eliminar"] {
+    color: #e74c3c;
+}
+a[href*="accion=eliminar"]:hover {
+    color: #c0392b;
+}
+
+/* Mensaje de éxito */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724 !important;
+    padding: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* --- ESTILOS DEL FORMULARIO (formulario.jsp) --- */
+.form-container {
+    max-width: 450px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.btn-submit {
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.btn
+.btn
